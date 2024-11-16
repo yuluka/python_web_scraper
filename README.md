@@ -50,7 +50,7 @@ To use this project you must follow these steps:
 
     Once the script is running, it'll begin to scrape the pages. If an error occur during the interaction with the LLM, it will be shown to you via console and the program will wait 65 seconds before retrying. However, make sure that the page you pass it is not too large or the context window will full up and the program will fail everytime.
 
-    the information of each page will be saved in a `.json` file, in the `data` folder. The structure in which the information is stored is:
+    The information of each page will be saved in a `.json` file, in the `data` folder. The structure in which the information is stored is:
 
     ```json
     {
